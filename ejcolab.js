@@ -1,6 +1,5 @@
 // cambie el texto del h1 a “Bye Mundo” al hacer click en el botón
-document.querySelector("#buttonClick").addEventListener("click", handleClick);
-function handleClick(event){
-    console.log(event);
-}
 
+const btn$$ = document.querySelector('h1') ;
+const h1$$ = document.querySelector('button') ;
+btn$$.addEventListener('click', function()  {h1$$.textcontent = "bye world"})
